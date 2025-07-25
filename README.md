@@ -40,11 +40,14 @@ cd todoApp
 
 docker-compose up --build
 
-backend
+backend UI
 ![alt text](image.png)
 
 front end ui
 ![alt text](image-2.png)
+
+DB 
+![alt text](image-3.png)
 
 3. App should be available at:
 
@@ -77,19 +80,9 @@ npm install
 
 Table: task
 
-| Column      | Type      | Description              |
-|-------------|-----------|--------------------------|
-| id          | SERIAL    | Primary key              |
-| title       | TEXT      | Task title (required)    |
-| description | TEXT      | Optional task description|
-| completed   | BOOLEAN   | true if task is done     |
-| created_at  | TIMESTAMP | Auto-generated timestamp |
-
----
 
 ## 📁 Project Structure
 
-```
 todoApp/
 │
 ├── backend/          # Node.js + Express API
@@ -109,23 +102,5 @@ todoApp/
 ├── README.md
 ```
 
----
 
-## 🧼 Clean Code & SOLID Principles
 
-- Routes, controllers, and services are separated
-- Error handling and status codes are managed properly
-- Functions have single responsibility
-- Testing ensures correct behavior
-
----
-
-## 🏁 Extra
-
-✔ Pretty UI using Bootstrap  
-✔ End-to-End test ready (can integrate Cypress or Playwright later)  
-✔ Code coverage supported (via jest --coverage)
-
----
-
-Feel free to fork or contribute! 🎯

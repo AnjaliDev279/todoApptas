@@ -23,3 +23,6 @@ const pool = require("./db");
 // app.use('/api/tasks', taskRoutes);
 
 // module.exports = app;
+
+
+//commented code only used for unit tests and integration tests
