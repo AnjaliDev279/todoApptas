@@ -28,6 +28,10 @@ jobs:
           --health-retries 5
 
     env:
+      DB_HOST: localhost
+      DB_USER: postgres
+      DB_PASSWORD: example
+      DB_NAME: todoappdb
       DATABASE_URL: postgres://postgres:example@localhost:5432/todoappdb
 
     steps:
