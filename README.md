@@ -32,7 +32,7 @@ Make sure Docker and docker-compose are installed.
 
 1. Clone the repo:
 
-git clone https://github.com/your-username/todoApp.git
+git clone https://github.com/AnjaliDev279/todoApptas
 cd todoApp
 
 
