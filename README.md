@@ -1,11 +1,11 @@
 
-# 📝 To-Do App (AngularJS + Node.js + PostgreSQL)
+To-Do App (AngularJS + Node.js + PostgreSQL)
 
 A simple full-stack to-do task management app. Users can add tasks, view the latest 5 uncompleted tasks, and mark them as done.
 
 ---
 
-## 📦 Tech Stack
+Tech Stack
 
 - Frontend: AngularJS, Bootstrap
 - Backend: Node.js + Express
@@ -15,7 +15,7 @@ A simple full-stack to-do task management app. Users can add tasks, view the lat
 
 ---
 
-## 🚀 Features
+Features
 
 - Add new to-do tasks (title + description)
 - Display latest 5 uncompleted tasks
@@ -26,7 +26,7 @@ A simple full-stack to-do task management app. Users can add tasks, view the lat
 
 ---
 
-## 🐳 Running with Docker
+Running with Docker
 
 Make sure Docker and docker-compose are installed.
 
@@ -62,7 +62,7 @@ ui unit test and integration test
 
 ---
 
-## 🧪 Running Tests
+Running Tests
 
 🟦 Backend Tests (Node + Express):
 
@@ -79,20 +79,23 @@ From the frontend folder:
 
 cd frontend
 npm install
+npm init -y
+npm install --save-dev karma karma-jasmine jasmine-core karma-chrome-launcher angular-mocks
+npm install angular angular-mocks --save-dev
+npx karma start
 
 
-## 🗄 Database Schema
+Database Schema
 
 Table: task
 
 
-## 📁 Project Structure
+Project Structure
 
 todoApp/
 │
 ├── backend/          # Node.js + Express API
 │   ├── routes/
-│   ├── controllers/
 │   ├── db.js
 │   ├── app.js
 │   ├── server.js
