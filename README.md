@@ -49,7 +49,7 @@ docker
 ui unit test and integration test
 ![alt text](image-5.png)
 
-3. App should be available at:
+3. App available at:
 
 - Frontend: http://localhost:8080  
 - Backend API: http://localhost:3000/api/tasks  
@@ -85,24 +85,7 @@ Database Schema
 Table: task
 
 
-Project Structure
 
-todoApp/
-│
-├── backend/          # Node.js + Express API
-│   ├── routes/
-│   ├── db.js
-│   ├── app.js
-│   ├── server.js
-│   ├── tests/
-│
-├── frontend/         # AngularJS SPA
-│   ├── app.js
-│   ├── index.html
-│   ├── taskController.spec.js
-│
-├── docker-compose.yml
-├── README.md
 
 
 
