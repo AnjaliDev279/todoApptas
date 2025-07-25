@@ -51,6 +51,9 @@ DB
 docker
 ![alt text](image-4.png)
 
+ui unit test and integration test
+![alt text](image-5.png)
+
 3. App should be available at:
 
 - Frontend: http://localhost:8080  
@@ -98,7 +101,7 @@ todoApp/
 ├── frontend/         # AngularJS SPA
 │   ├── app.js
 │   ├── index.html
-│   ├── tests/
+│   ├── taskController.spec.js
 │
 ├── docker-compose.yml
 ├── README.md
