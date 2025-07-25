@@ -1,10 +1,5 @@
 
 To-Do App (AngularJS + Node.js + PostgreSQL)
-
-A simple full-stack to-do task management app. Users can add tasks, view the latest 5 uncompleted tasks, and mark them as done.
-
----
-
 Tech Stack
 
 - Frontend: AngularJS, Bootstrap
@@ -64,7 +59,7 @@ ui unit test and integration test
 
 Running Tests
 
-🟦 Backend Tests (Node + Express):
+Backend Tests (Node + Express):
 
 From the backend folder:
 
@@ -73,7 +68,7 @@ npm install
 npm test
 
 
-🟨 Frontend Tests (AngularJS):
+Frontend Tests (AngularJS):
 
 From the frontend folder:
 
@@ -108,7 +103,7 @@ todoApp/
 │
 ├── docker-compose.yml
 ├── README.md
-```
+
 
 
 

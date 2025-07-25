@@ -1,5 +1,5 @@
 const app = require("./app");
-const pool = require("./db"); // if you need DB connection here
+const pool = require("./db"); 
 
 const PORT = 3000;
 
